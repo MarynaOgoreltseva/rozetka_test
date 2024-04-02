@@ -38,6 +38,9 @@ ul {
   width: 100%;
   margin: 0 auto;
 }
+.wrap_benefits {
+  max-width: 1168px;
+}
 
 .title_big {
   font-size: 80px;
@@ -63,14 +66,19 @@ ul {
 }
 .hero__row {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hero__logo {
+  flex: 0 0 auto;
+  margin: 0 auto;
+  max-width: 345px;
+  width: 100%;
 }
 .hero__title {
-  max-width: 966px;
-  width: 100%;
   text-align: center;
-  margin-top: 38px;
-  margin-left: 70px;
   text-transform: uppercase;
+  flex: 1 1 auto;
 }
 .hero__pictures {
   margin-top: -63px;
@@ -96,7 +104,8 @@ ul {
 }
 .benefits__list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .benefits__text {
   font-size: 37px;
@@ -108,11 +117,9 @@ ul {
   display: inline-block;
 }
 .benefits__item {
-  padding: 49px 0 74px 87px;
-  max-width: 720px;
-  width: 100%;
   display: flex;
   flex-direction: column;
+  flex: 0 0 50%;
 }
 .benefits__title {
   margin-bottom: 24px;
@@ -160,14 +167,15 @@ ul {
   gap: 51px;
   align-items: center;
   flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .desc__item_reverse {
   flex-direction: row-reverse;
-  justify-content: space-between;
 }
 .desc__pic {
-  width: 501px;
-  height: 501px;
+  max-width: 501px;
+  width: 100%;
 }
 .desc__item-inner {
   max-width: 852px;
@@ -197,17 +205,18 @@ ul {
   justify-content: space-between;
   text-align: center;
   margin-bottom: 75px;
+  flex-wrap: wrap;
 }
 .compare__img {
   margin: 0 auto;
   margin-bottom: 29px;
-  height: 311px;
+  width: 100%;
 }
 .compare__img_s {
-  width: 566px;
+  max-width: 566px;
 }
 .compare__img_m {
-  width: 607px;
+  max-width: 607px;
 }
 .compare__column {
   max-width: 710px;
@@ -244,4 +253,27 @@ ul {
 .compare__footer-name {
   font-size: 73px;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .title_big {
+    font-size: 50px;
+  }
+  .title_medium {
+    font-size: 32px;
+    line-height: 90px;
+  }
+  .title_small {
+    font-size: 22px;
+    text-transform: capitalize;
+  }
+  .title_tiny {
+    font-size: 41px;
+  }
+  .desc {
+    font-size: 27px;
+  }
+  .compare__title {
+    font-size: 37px;
+  }
 }/*# sourceMappingURL=styles.css.map */
