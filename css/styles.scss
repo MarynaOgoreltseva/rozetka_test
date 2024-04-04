@@ -299,7 +299,7 @@ ul {
     // }
 }
 
-@media screen and (max-width:323px) {
+@media screen and (max-width:500px) {
     .wrap {
         padding: 0 20px;
     }
@@ -349,7 +349,11 @@ ul {
     }
     &__item {
         justify-content: center;
+        // column-gap: 60px;
         // gap: 40px;
+        &_pic {
+            flex-direction: column;
+        }
     }
     &__item-list {
         margin-bottom: 40px;
@@ -406,5 +410,12 @@ ul {
             font-size: 37px;
             line-height: 33px;
         }
+    }
+}
+
+@media screen and (max-width:250px) {
+    .title_big {
+        font-size: 36px;
+        line-height: 40px;
     }
 }

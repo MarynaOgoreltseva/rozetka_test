@@ -270,7 +270,7 @@ ul {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 323px) {
+@media screen and (max-width: 500px) {
   .wrap {
     padding: 0 20px;
   }
@@ -314,6 +314,9 @@ ul {
   }
   .benefits__item {
     justify-content: center;
+  }
+  .benefits__item_pic {
+    flex-direction: column;
   }
   .benefits__item-list {
     margin-bottom: 40px;
@@ -368,5 +371,11 @@ ul {
   .compare__footer-name {
     font-size: 37px;
     line-height: 33px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .title_big {
+    font-size: 36px;
+    line-height: 40px;
   }
 }/*# sourceMappingURL=styles.css.map */
