@@ -211,7 +211,7 @@ ul {
 .compare {
     position: relative;
     background-image: url(../img/bg.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-color: #333087;
@@ -312,6 +312,9 @@ ul {
             font-size: 50px;
             line-height: 55px;
         }
+    }
+    .compare {
+        background-size: contain;
     }
 }
 
@@ -437,7 +440,7 @@ ul {
 
     .compare {
         background-size: cover;
-        padding: 35px 0 200px;
+        padding: 35px 0 150px;
         &__title {
             display: none;
         }
