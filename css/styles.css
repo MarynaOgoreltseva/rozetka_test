@@ -394,6 +394,10 @@ ul {
     font-size: 19px;
     text-align: center;
   }
+  .desc .title_medium {
+    font-size: inherit;
+    line-height: inherit;
+  }
   .desc__photo {
     display: none;
   }
@@ -407,6 +411,7 @@ ul {
   .desc__item {
     gap: 20px;
     flex-direction: column;
+    font-size: inherit;
   }
   .desc__item-title {
     line-height: 25px;

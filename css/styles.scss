@@ -411,6 +411,10 @@ ul {
         padding: 30px 0;
         font-size: 19px;
         text-align: center;
+        & .title_medium {
+                font-size: inherit;
+                line-height: inherit;
+            }
         &__photo {
             display: none;
         }
@@ -424,6 +428,7 @@ ul {
         &__item {
             gap: 20px;
             flex-direction: column;
+            font-size: inherit;
         }
         &__item-title {
             line-height: 25px;
