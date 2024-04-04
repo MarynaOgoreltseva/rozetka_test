@@ -190,7 +190,7 @@ ul {
 .desc__item_reverse {
   flex-direction: row-reverse;
 }
-.desc__pic {
+.desc__pic-block {
   max-width: 501px;
   width: 100%;
 }
